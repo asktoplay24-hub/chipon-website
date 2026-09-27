@@ -1,0 +1,118 @@
+/* =========================================================
+   Chipon — responsive.css
+   Breakpoints tested against 360 / 390 / 768 / 1024 / 1440px.
+   Mobile-first overrides layer on top of style.css/components.css.
+   ========================================================= */
+
+/* ---------- ≤1024px : laptop / tablet landscape ---------- */
+@media (max-width: 1024px) {
+  :root {
+    --gutter: 24px;
+  }
+
+  .portfolio-grid,
+  .featured-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-grid {
+    grid-template-columns: 260px 1fr;
+  }
+}
+
+/* ---------- ≤768px : tablet portrait ---------- */
+@media (max-width: 768px) {
+  .navbar__links {
+    position: fixed;
+    inset: 76px 0 0 0;
+    height: calc(100dvh - 76px);
+    background: var(--color-bg);
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    padding: 24px var(--gutter);
+    transform: translateX(100%);
+    transition: transform 0.3s var(--ease);
+    overflow-y: auto;
+  }
+
+  .navbar__links.is-open {
+    transform: translateX(0);
+  }
+
+  .navbar__links a {
+    width: 100%;
+    padding-block: 16px;
+    border-bottom: 1px solid var(--color-line);
+    font-size: 1.05rem;
+  }
+
+  .navbar__toggle {
+    display: flex;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-photo {
+    max-width: 320px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__actions,
+  .hero__socials {
+    gap: 14px;
+  }
+}
+
+/* ---------- ≤600px : mobile ---------- */
+@media (max-width: 600px) {
+  .portfolio-grid,
+  .featured-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .credits-list__row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .credits-list__detail {
+    text-align: left;
+  }
+
+  .site-footer .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+  }
+}
+
+/* ---------- ≤390px : small mobile ---------- */
+@media (max-width: 390px) {
+  :root {
+    --gutter: 18px;
+  }
+
+  section {
+    padding-block: 56px;
+  }
+}

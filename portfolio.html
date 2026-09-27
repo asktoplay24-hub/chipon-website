@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Chipon</title>
+  <meta name="description" content="รวมผลงานด้านภาพยนตร์ ภาพถ่าย วิดีโอ และงานออกแบบของ Chipon" />
+  <meta name="keywords" content="Chipon, Portfolio, Film, Photography, Video, Design" />
+  <link rel="canonical" href="https://chipon.example.com/portfolio.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Portfolio — Chipon" />
+  <meta property="og:description" content="รวมผลงานด้านภาพยนตร์ ภาพถ่าย วิดีโอ และงานออกแบบของ Chipon" />
+  <meta property="og:image" content="assets/images/og-cover.jpg" />
+  <meta property="og:url" content="https://chipon.example.com/portfolio.html" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Portfolio — Chipon" />
+  <meta name="twitter:image" content="assets/images/og-cover.jpg" />
+
+  <link rel="icon" href="assets/images/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Space+Grotesk:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600&family=Noto+Serif+Thai:wght@500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+  <header class="navbar">
+    <div class="container">
+      <a class="navbar__brand" href="index.html">
+        <img class="navbar__logo" src="assets/images/logo.png" alt="โลโก้ Chipon" />
+        <span>Chipon</span>
+      </a>
+      <button class="navbar__toggle" aria-label="เปิดเมนู" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__links" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าหลัก</a>
+        <a href="about.html">เกี่ยวกับ</a>
+        <a href="portfolio.html" aria-current="page">ผลงาน</a>
+        <a href="services.html">บริการ</a>
+        <a href="contact.html">ติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-intro">
+      <div class="container">
+        <span class="section-label">Portfolio</span>
+        <h1 class="h2">ผลงานทั้งหมด</h1>
+        <p class="lede" style="margin-top: 12px;">
+          ติดตามผลงานใหม่ได้ที่นี่ <!--<code>data/portfolio.json</code> -->
+        </p>
+      </div>
+    </section>
+
+    <section style="padding-top: 0;">
+      <div class="container">
+        <div class="filter-bar" data-portfolio-filters role="group" aria-label="กรองผลงานตามหมวดหมู่">
+          <button class="filter-btn" data-filter="All" aria-pressed="true">ทั้งหมด</button>
+          <button class="filter-btn" data-filter="Film" aria-pressed="false">ภาพยนตร์</button>
+          <button class="filter-btn" data-filter="Photography" aria-pressed="false">ภาพถ่าย</button>
+          <button class="filter-btn" data-filter="Video" aria-pressed="false">วิดีโอ</button>
+          <button class="filter-btn" data-filter="Design" aria-pressed="false">การออกแบบ</button>
+          <button class="filter-btn" data-filter="Other" aria-pressed="false">อื่นๆ</button>
+        </div>
+        <div id="portfolio-grid" class="portfolio-grid" aria-live="polite">
+          <!-- Rendered from data/portfolio.json by js/portfolio.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__brand">
+        <img class="site-footer__logo" src="assets/images/logo.png" alt="โลโก้ Chipon" />
+        <span class="site-footer__meta">© <span data-current-year></span> ChiponProductio. All rights reserved.</span>
+      </div>
+      <nav class="site-footer__links" aria-label="ลิงก์ส่วนท้าย">
+        <a href="index.html">หน้าหลัก</a>
+        <a href="about.html">เกี่ยวกับ</a>
+        <a href="portfolio.html">ผลงาน</a>
+        <a href="services.html">บริการ</a>
+        <a href="contact.html">ติดต่อ</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>

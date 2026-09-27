@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Chipon</title>
+  <meta name="description" content="ติดต่อ Chipon ผ่าน Facebook, TikTok หรือแบบฟอร์มติดต่อบนเว็บไซต์" />
+  <meta name="keywords" content="Chipon, Contact, ติดต่อ" />
+  <link rel="canonical" href="https://chipon.example.com/contact.html" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact — Chipon" />
+  <meta property="og:description" content="ติดต่อ Chipon ผ่าน Facebook, TikTok หรือแบบฟอร์มติดต่อบนเว็บไซต์" />
+  <meta property="og:image" content="assets/images/og-cover.jpg" />
+  <meta property="og:url" content="https://chipon.example.com/contact.html" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact — Chipon" />
+  <meta name="twitter:image" content="assets/images/og-cover.jpg" />
+
+  <link rel="icon" href="assets/images/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Space+Grotesk:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600&family=Noto+Serif+Thai:wght@500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+  <header class="navbar">
+    <div class="container">
+      <a class="navbar__brand" href="index.html">
+        <img class="navbar__logo" src="assets/images/logo.png" alt="โลโก้ Chipon" />
+        <span>Chipon</span>
+      </a>
+      <button class="navbar__toggle" aria-label="เปิดเมนู" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__links" aria-label="เมนูหลัก">
+        <a href="index.html">หน้าหลัก</a>
+        <a href="about.html">เกี่ยวกับ</a>
+        <a href="portfolio.html">ผลงาน</a>
+        <a href="services.html">บริการ</a>
+        <a href="contact.html" aria-current="page">ติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-intro">
+      <div class="container">
+        <span class="section-label">Contact</span>
+        <h1 class="h2">ติดต่อ Chipon</h1>
+      </div>
+    </section>
+
+    <section style="padding-top: 0;">
+      <div class="container contact-grid">
+        <div class="contact-channels">
+          <div class="contact-channel">
+            <span class="contact-channel__label">Facebook</span>
+            <a class="contact-channel__value" href="https://www.facebook.com/ChiponProductio" target="_blank" rel="noopener">ChiponProductio</a>
+          </div>
+          <div class="contact-channel">
+            <span class="contact-channel__label">TikTok</span>
+            <a class="contact-channel__value" href="https://www.tiktok.com/@chiponproductio" target="_blank" rel="noopener">chiponproductio</a>
+          </div>
+           <div class="contact-channel">
+            <span class="contact-channel__label">YouTube</span>
+            <a class="contact-channel__value" href="https://www.youtube.com/@ChiponProductio" target="_blank" rel="noopener">chiponproductio</a>
+          </div>
+          <div class="contact-channel">
+            <span class="contact-channel__label">Instagram</span>
+            <span class="contact-channel__value" data-pending="true">เร็ว ๆ นี้</span>
+          </div>
+          <div class="contact-channel">
+            <span class="contact-channel__label">Email</span>
+            <span class="contact-channel__value" data-pending="true">ยังไม่เปิดเผย</span>
+          </div>
+          <div class="contact-channel">
+            <span class="contact-channel__label">Phone</span>
+            <span class="contact-channel__value" data-pending="true">ยังไม่เปิดเผย</span>
+          </div>
+         </div>
+
+        <form
+          id="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          novalidate
+        >
+          <input type="hidden" name="access_key" value="3bba8eac-3c72-4e05-8a56-cfd4a241d8ac" />
+          <input type="hidden" name="subject" value="ข้อความใหม่จากเว็บไซต์ Chipon" />
+          <input type="hidden" name="from_name" value="Chipon Website Contact Form" />
+          <!-- honeypot field: bots tend to fill every input, real users never see it -->
+          <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off" />
+
+          <div class="form-field">
+            <label for="name">ชื่อ</label>
+            <input type="text" id="name" name="name" minlength="2" required />
+            <span class="form-error" role="alert"></span>
+          </div>
+          <div class="form-field">
+            <label for="email">อีเมล</label>
+            <input type="email" id="email" name="email" required />
+            <span class="form-error" role="alert"></span>
+          </div>
+          <div class="form-field">
+            <label for="message">ข้อความ</label>
+            <textarea id="message" name="message" minlength="10" required></textarea>
+            <span class="form-error" role="alert"></span>
+          </div>
+          <button type="submit" class="btn btn--primary">Send</button>
+          <p id="form-status" class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__brand">
+        <img class="site-footer__logo" src="assets/images/logo.png" alt="โลโก้ Chipon" />
+        <span class="site-footer__meta">© <span data-current-year></span> ChiponProductio. All rights reserved.</span>
+      </div>
+      <nav class="site-footer__links" aria-label="ลิงก์ส่วนท้าย">
+        <a href="index.html">หน้าหลัก</a>
+        <a href="about.html">เกี่ยวกับ</a>
+        <a href="portfolio.html">ผลงาน</a>
+        <a href="services.html">บริการ</a>
+        <a href="contact.html">บริการ</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

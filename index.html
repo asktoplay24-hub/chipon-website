@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chipon — Productio &amp; Filmmaker</title>
+  <meta name="description" content="เว็บไซต์ส่วนตัวของ อชิตพล จอมไอยรา หรือที่รู้จักกันในชื่อ Chipon(ชิพล) เว็บไซด์นี้มีไว้เก็บผลงานต่างๆ รวมทั้งช่องการติดต่อ" />
+  <meta name="keywords" content="Chipon, อชิตพล จอมไอยรา, Filmmaker, Photographer, Video Editor, Creator, Graphic Design" />
+  <meta name="author" content="อชิตพล จอมไอยรา (Chipon)" />
+  <link rel="canonical" href="https://chipon.example.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Chipon — Productio & Filmmaker" />
+  <meta property="og:description" content="เว็บไซต์ส่วนตัวของ อชิตพล จอมไอยรา หรือที่รู้จักกันในชื่อ Chipon(ชิพล) เว็บไซด์นี้มีไว้เก็บผลงานต่างๆ รวมทั้งช่องการติดต่อ" />
+  <meta property="og:image" content="assets/images/og-cover.jpg" />
+  <meta property="og:url" content="https://chipon.example.com/" />
+  <meta property="og:locale" content="th_TH" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chipon — Productio & Filmmaker" />
+  <meta name="twitter:description" content="รวมผลงานด้านการถ่ายภาพ วิดีโอ การทำหนัง และงานสร้างสรรค์ของ Chipon(ชิพล)" />
+  <meta name="twitter:image" content="assets/images/og-cover.jpg" />
+
+  <link rel="icon" href="assets/images/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/images/logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;1,500&family=Space+Grotesk:wght@400;500;600&family=Noto+Sans+Thai:wght@400;500;600&family=Noto+Serif+Thai:wght@500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหาหลัก</a>
+
+  <header class="navbar">
+    <div class="container">
+      <a class="navbar__brand" href="index.html">
+        <img class="navbar__logo" src="assets/images/logo.png" alt="โลโก้ Chipon" />
+        <span>Chipon</span>
+      </a>
+      <button class="navbar__toggle" aria-label="เปิดเมนู" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="navbar__links" aria-label="เมนูหลัก">
+        <a href="index.html" aria-current="page">หน้าหลัก</a>
+        <a href="about.html">เกี่ยวกับ</a>
+        <a href="portfolio.html">ผลงาน</a>
+        <a href="services.html">บริการ</a>
+        <a href="contact.html">ติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <p class="hero__status">
+          <span class="hero__dot" aria-hidden="true"></span>
+          กำลังสร้างผลงาน · Based in Thailand
+        </p>
+        <h1 class="hero__title">Hi, I'm<br />Chipon.(ชิพล)</h1>
+        <p class="hero__role">Creator • Filmmaker • Photographer</p>
+        <p class="lede hero__lede">
+          ผมกำลังสร้างผลงานจากสิ่งที่ผมชอบ และเปลี่ยนความคิดให้กลายเป็นภาพ
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="portfolio.html">ดูผลงาน</a>
+          <a class="btn btn--ghost" href="about.html">รู้จักผม</a>
+        </div>
+        <div class="hero__socials social-row" aria-label="ช่องทางโซเชียลมีเดีย">
+          <a href="https://www.facebook.com/ChiponProductio" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://www.tiktok.com/@chiponproductio" target="_blank" rel="noopener">TikTok</a>
+          <a href="https://www.youtube.com/@ChiponProductio" target="_blank" rel="noopener">YouTube</a>
+          <!-- เตรียมพื้นที่สำหรับ YouTube และ Instagram ในอนาคต -->
+        </div>
+      </div>
+    </section>
+
+    <section id="featured">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-label">ผลงานเด่น หรือ ผลงานคัดสรร</span>
+          <h2>ผลงานที่อยากให้คุณเห็นก่อน</h2>
+        </div>
+        <div id="featured-grid" class="featured-grid" aria-live="polite">
+          <!-- Rendered from data/portfolio.json by js/portfolio.js -->
+        </div>
+        <div style="margin-top: 40px;">
+          <a class="btn btn--ghost" href="portfolio.html">ดูผลงานทั้งหมด</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__brand">
+        <img class="site-footer__logo" src="assets/images/logo.png" alt="โลโก้ Chipon" />
+        <span class="site-footer__meta">© <span data-current-year></span> ChiponProductio. All rights reserved.</span>
+      </div>
+      <nav class="site-footer__links" aria-label="ลิงก์ส่วนท้าย">
+        <a href="index.html">หน้าหลัก</a>
+        <a href="about.html">เกี่ยวกับ</a>
+        <a href="portfolio.html">ผลงาน</a>
+        <a href="services.html">บริการ</a>
+        <a href="contact.html">ติดต่อ</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/portfolio.js"></script>
+</body>
+</html>

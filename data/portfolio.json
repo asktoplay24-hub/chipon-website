@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "ตัวอย่างผลงาน 01",
+    "category": "Film",
+    "year": "2026",
+    "image": "assets/images/portfolio/project-01.jpg",
+    "description": "คำอธิบายสั้น ๆ เกี่ยวกับผลงานนี้ แก้ไขข้อความนี้ให้ตรงกับผลงานจริงของคุณ",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "ตัวอย่างผลงาน 02",
+    "category": "Photography",
+    "year": "2026",
+    "image": "assets/images/portfolio/project-02.jpg",
+    "description": "คำอธิบายสั้น ๆ เกี่ยวกับผลงานนี้ แก้ไขข้อความนี้ให้ตรงกับผลงานจริงของคุณ",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "ตัวอย่างผลงาน 03",
+    "category": "Video",
+    "year": "2025",
+    "image": "assets/images/portfolio/project-03.jpg",
+    "description": "คำอธิบายสั้น ๆ เกี่ยวกับผลงานนี้ แก้ไขข้อความนี้ให้ตรงกับผลงานจริงของคุณ",
+    "link": "#"
+  },
+  {
+    "id": 4,
+    "title": "ตัวอย่างผลงาน 04",
+    "category": "Design",
+    "year": "2025",
+    "image": "assets/images/portfolio/project-04.jpg",
+    "description": "คำอธิบายสั้น ๆ เกี่ยวกับผลงานนี้ แก้ไขข้อความนี้ให้ตรงกับผลงานจริงของคุณ",
+    "link": "#"
+  },
+  {
+    "id": 5,
+    "title": "ตัวอย่างผลงาน 05",
+    "category": "Film",
+    "year": "2025",
+    "image": "assets/images/portfolio/project-05.jpg",
+    "description": "คำอธิบายสั้น ๆ เกี่ยวกับผลงานนี้ แก้ไขข้อความนี้ให้ตรงกับผลงานจริงของคุณ",
+    "link": "#"
+  },
+  {
+    "id": 6,
+    "title": "ตัวอย่างผลงาน 06",
+    "category": "Other",
+    "year": "2024",
+    "image": "assets/images/portfolio/project-06.jpg",
+    "description": "คำอธิบายสั้น ๆ เกี่ยวกับผลงานนี้ แก้ไขข้อความนี้ให้ตรงกับผลงานจริงของคุณ",
+    "link": "#"
+  }
+]
