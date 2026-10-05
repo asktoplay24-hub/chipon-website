@@ -36,7 +36,7 @@
         </div>
         <h3 class="work-card__title">${item.title}</h3>
         <p class="work-card__desc">${item.description}</p>
-        <a class="work-card__link" href="${item.link}">ดูรายละเอียด</a>
+        <a class="work-card__link" href="${item.link}">ดูผลงาน</a>
       </div>
     `;
     return article;
