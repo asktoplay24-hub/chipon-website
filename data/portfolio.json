@@ -52,6 +52,42 @@
     "image": "assets/images/portfolio/มีเธอก็พอ.jpg",
     "description": "การที่เราสองคนจะเจออะไรมากมายโปรดอย่าปล่อยมือฉันเลย",
     "link": "https://www.facebook.com/share/p/1F6hyud28f/"
+  },
+  {
+    "id": 7,
+    "title": "ทางเดินของใคร",
+    "category": "Photography",
+    "year": "31/08/2026",
+    "image": "assets/images/portfolio/ทางเดินของใคร.jpg",
+    "description": "ถนน ทางเดิน ทางดิน ปกติที่เดินกันทุกวันมันเป็นของเราหรือของใคร",
+    "link": "https://www.facebook.com/share/p/18QfqxpPbt/"
+  },
+  {
+    "id": 8,
+    "title": "เพื่อนกันตลอดไป",
+    "category": "Photography",
+    "year": "10/09/2026",
+    "image": "assets/images/portfolio/เพื่อนกันตลอดไป.jpg",
+    "description": "บางความสัมพันธ์…ไม่ได้เป็นแค่เพื่อนร่วมทางแต่คือ “แรงผลักดัน” ให้เราเติบโตไปด้วยกัน 🌱ไม่ว่าจะเจออุปสรรคแค่ไหนขอแค่ยังมีกันและกัน",
+    "link": "https://www.facebook.com/share/p/19jjKwhqU6/"
+  },
+  {
+    "id": 9,
+    "title": "สายตาที่เธอมอง",
+    "category": "Photography",
+    "year": "2/10/2026",
+    "image": "assets/images/portfolio/สายตาที่เธอมอง.jpg",
+    "description": "บางครั้ง…สิ่งที่เรามองเห็น อาจไม่ใช่สิ่งที่เป็นจริงและบางครั้ง…สายตาของใครบางคน อาจทำให้เราเห็นคุณค่าของสิ่งที่เคยมองข้ามเรื่องราวสั้น ๆ ที่อยากชวนทุกคนลองมอง “คนรอบข้าง” ให้มากกว่าสิ่งที่เห็นด้วยตาเพราะทุกคนต่างมีเรื่องราวที่เราอาจไม่เคยรู้",
+    "link": "https://www.facebook.com/share/p/19jjKwhqU6/"
+  }, 
+  {
+    "id": 10,
+    "title": "ออกกองถ่ายทำภาพยนตร์สั้น",
+    "category": "BTS",
+    "year": "3/10/2026",
+    "image": "assets/images/portfolio/เบื่องหลัง-01.png",
+    "description": "มาๆๆ มาออกกองถ่ายทำภาพยนตร์สั้นกันอาจจะลำบากนิดหน่อย ไม่พร้อมซะเท่าไหร่สู้ๆพวกเราทีมงาน ฐปรรนันท์(ภูผา) นฤภัทร(ตื่อพอ) อชิตพล(ชิพล/ลองกอง)",
+    "link": "https://www.facebook.com/share/p/19Yc8226NG/"
   }
   
 ]
