@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "เหม่โต้ปิ ข้าวป(ลุ)กชีวิต",
-    "category": "Film",
+    "category": "ภาพยนตร์",
     "year": "2026",
     "image": "assets/images/portfolio/เหม่โต้ปิ.png",
     "description": "รางวัลชนะเลิศระดับเขต การแข่งขันงานศิลปหัตถกรรมนักเรียนครั้งที่ 72 ในหัวข้อ 'อาหารบ้านฉัน' ในจานบ้านเธอ การประกวดภาพยนตร์สั้น ระดับชั้นประถมศึกษาปีที่ 1 - 6 โรงเรียนบ้านทุ่งถ้ำ สำนักงานเขตพื้นที่การศึกษาประถมศึกษาตาก เขต 2",
@@ -10,84 +10,104 @@
   },
   {
     "id": 2,
-    "title": "โรงเรียนร้าง",
-    "category": "Photography",
-    "year": "17/08/2026",
-    "image": "assets/images/portfolio/โรงเรียนร้าง.jpg",
-    "description": "โรงเรียนที่ไม่มีครู นักเรียน หรือบุคคลใดๆอาศัยหรือใช้งาน",
-    "link": "https://www.facebook.com/share/p/1DUh4vByYP/"
+    "title": "แม่รออยู่",
+    "category": "ภาพยนตร์",
+    "year": "15/10/2026",
+    "image": "assets/images/portfolio/แม่รออยู่.png",
+    "description": "ภาพยนตร์สั้นเรื่องนี้ทำให้เราได้เห็นว่า เงิน ทอง หรือสิ่งของอาจขโมยได้ แต่ถ้าเราสูญเสียใครบางคนที่เรารักไปอาจไม่กัลบคืนมาได้",
+    "link": "https://drive.google.com/file/d/1KsQlDUGF3IytVGz-IfD9nFs9BtrpBHWX/view?usp=drive_link"
   },
+
   {
     "id": 3,
     "title": "อีกด้านของหมูบ้าน",
-    "category": "Video",
+    "category": "วิดีโอ",
     "year": "22/07/2026",
     "image": "assets/images/portfolio/อีกด้านของหมูบ้าน.png",
     "description": "ทุกหมูบ้านต้องพบเจอกับปัญหาเหล่านี้(ขยะ)ในชุมชน ทั้งที่เป็นที่อยู่ ชุมชน โรงเรียน และอื่นๆ ",
     "link": "https://www.facebook.com/share/v/1DkSNtMdeG/"
   },
   {
-    "id": 4,
-    "title": "บางครั้ง...การพบกัน",
-    "category": "Design",
-    "year": "28/09/2026",
-    "image": "assets/images/portfolio/บางครั้ง...การพบกัน.png",
-    "description": "เรื่องราวของคนสองคนที่ถูกถ่ายทอดผ่าน Animation และ Interactive Experience ซึ่งสร้างขึ้นด้วยการเขียนโค้ด",
-    "link": "https://www.facebook.com/share/v/1Bw17Dd3WP/"
+    "id": 11,
+    "title": "ทดสอบความเข้ากันได้",
+    "category": "โปรแกรม",
+    "year": "20/10/2026",
+    "image": "assets/images/portfolio/ทดสอบความเข้ากันได้-01.png",
+    "description": "ไว้สำหรับทดสอบความเข้ากันได้ของคู่รักแต่ละคู่ สามารถเข้าใช้สมัครใช้งานได้เลย",
+    "link": "https://lovetes-by.netlify.app/"
   },
   {
     "id": 5,
-    "title": "นุ่นหล่อ (ภูผา)",
-    "category": "Other",
-    "year": "2/10/2026",
-    "image": "assets/images/portfolio/ฐปรรนันท์-01.png",
-    "description": "ภาพชุดนี้เป็นอีกหนึ่งผลงานที่ผมได้ลองถ่ายและลองถ่ายทอดอารมณ์ของตัวแบบผ่านแสง ธรรมชาติ และบรรยากาศรอบตัว",
-    "link": "https://www.facebook.com/share/p/19Qu9ap7Hv/"
-  },
-  {
-    "id": 6,
     "title": "มีเธอก็พอ",
-    "category": "Photography",
+    "category": "โปรเตอร์/ภาพถ่าย",
     "year": "25/08/2026",
     "image": "assets/images/portfolio/มีเธอก็พอ.jpg",
     "description": "การที่เราสองคนจะเจออะไรมากมายโปรดอย่าปล่อยมือฉันเลย",
     "link": "https://www.facebook.com/share/p/1F6hyud28f/"
   },
   {
-    "id": 7,
+    "id": 9,
+    "title": "ออกกองถ่ายทำภาพยนตร์สั้น",
+    "category": "เบื่องหลัง",
+    "year": "3/10/2026",
+    "image": "assets/images/portfolio/เบื่องหลัง-01.png",
+    "description": "มาๆๆ มาออกกองถ่ายทำภาพยนตร์สั้นกันอาจจะลำบากนิดหน่อย ไม่พร้อมซะเท่าไหร่สู้ๆพวกเราทีมงาน ฐปรรนันท์(ภูผา) นฤภัทร(ตื่อพอ) อชิตพล(ชิพล/ลองกอง)",
+    "link": "https://www.facebook.com/share/p/19Yc8226NG/"
+  },
+  {
+    "id": 10,
+    "title": "บางครั้ง...การพบกัน",
+    "category": "โปรแกรม",
+    "year": "28/09/2026",
+    "image": "assets/images/portfolio/บางครั้ง...การพบกัน.png",
+    "description": "เรื่องราวของคนสองคนที่ถูกถ่ายทอดผ่าน Animation และ Interactive Experience ซึ่งสร้างขึ้นด้วยการเขียนโค้ด",
+    "link": "https://www.facebook.com/share/v/1Bw17Dd3WP/"
+  },
+  {
+    "id": 4,
+    "title": "นุ่นหล่อ (ภูผา)",
+    "category": "อื่นๆ",
+    "year": "2/10/2026",
+    "image": "assets/images/portfolio/ฐปรรนันท์-01.png",
+    "description": "ภาพชุดนี้เป็นอีกหนึ่งผลงานที่ผมได้ลองถ่ายและลองถ่ายทอดอารมณ์ของตัวแบบผ่านแสง ธรรมชาติ และบรรยากาศรอบตัว",
+    "link": "https://www.facebook.com/share/p/19Qu9ap7Hv/"
+  },
+  {
+    "id": 12,
+    "title": "โรงเรียนร้าง",
+    "category": "โปรเตอร์/ภาพถ่าย",
+    "year": "17/08/2026",
+    "image": "assets/images/portfolio/โรงเรียนร้าง.jpg",
+    "description": "โรงเรียนที่ไม่มีครู นักเรียน หรือบุคคลใดๆอาศัยหรือใช้งาน",
+    "link": "https://www.facebook.com/share/p/1DUh4vByYP/"
+  },
+
+  {
+    "id": 6,
     "title": "ทางเดินของใคร",
-    "category": "Photography",
+    "category": "โปรเตอร์/ภาพถ่าย",
     "year": "31/08/2026",
     "image": "assets/images/portfolio/ทางเดินของใคร.jpg",
     "description": "ถนน ทางเดิน ทางดิน ปกติที่เดินกันทุกวันมันเป็นของเราหรือของใคร",
     "link": "https://www.facebook.com/share/p/18QfqxpPbt/"
   },
   {
-    "id": 8,
+    "id": 7,
     "title": "เพื่อนกันตลอดไป",
-    "category": "Photography",
+    "category": "โปรเตอร์/ภาพถ่าย",
     "year": "10/09/2026",
     "image": "assets/images/portfolio/เพื่อนกันตลอดไป.jpg",
     "description": "บางความสัมพันธ์…ไม่ได้เป็นแค่เพื่อนร่วมทางแต่คือ “แรงผลักดัน” ให้เราเติบโตไปด้วยกัน 🌱ไม่ว่าจะเจออุปสรรคแค่ไหนขอแค่ยังมีกันและกัน",
     "link": "https://www.facebook.com/share/p/19jjKwhqU6/"
   },
   {
-    "id": 9,
+    "id": 8,
     "title": "สายตาที่เธอมอง",
-    "category": "Photography",
+    "category": "โปรเตอร์/ภาพถ่าย",
     "year": "2/10/2026",
     "image": "assets/images/portfolio/สายตาที่เธอมอง.jpg",
     "description": "บางครั้ง…สิ่งที่เรามองเห็น อาจไม่ใช่สิ่งที่เป็นจริงและบางครั้ง…สายตาของใครบางคน อาจทำให้เราเห็นคุณค่าของสิ่งที่เคยมองข้ามเรื่องราวสั้น ๆ ที่อยากชวนทุกคนลองมอง “คนรอบข้าง” ให้มากกว่าสิ่งที่เห็นด้วยตาเพราะทุกคนต่างมีเรื่องราวที่เราอาจไม่เคยรู้",
     "link": "https://www.facebook.com/share/p/19jjKwhqU6/"
-  }, 
-  {
-    "id": 10,
-    "title": "ออกกองถ่ายทำภาพยนตร์สั้น",
-    "category": "BTS",
-    "year": "3/10/2026",
-    "image": "assets/images/portfolio/เบื่องหลัง-01.png",
-    "description": "มาๆๆ มาออกกองถ่ายทำภาพยนตร์สั้นกันอาจจะลำบากนิดหน่อย ไม่พร้อมซะเท่าไหร่สู้ๆพวกเราทีมงาน ฐปรรนันท์(ภูผา) นฤภัทร(ตื่อพอ) อชิตพล(ชิพล/ลองกอง)",
-    "link": "https://www.facebook.com/share/p/19Yc8226NG/"
-  }
-  
+  } 
+
 ]
